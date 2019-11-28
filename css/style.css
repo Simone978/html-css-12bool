@@ -1,0 +1,15 @@
+
+[class*="col-"]{
+  background-color: pink;
+}
+
+.col-1{
+  position: relative;
+}
+
+.text{
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
