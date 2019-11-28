@@ -1,15 +1,31 @@
 
+/* regole generali */
+
 [class*="col-"]{
-  background-color: pink;
+  background-color: #FFC0CB;
 }
 
-.col-1{
-  position: relative;
+.relative-pos{
+    position: relative;
 }
 
 .text{
   position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.container-nested{
+  width: 98%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2px;
+}
+
+.container.footer .col-6 .relative-pos{
+  background: #F07F80;
+  border: 1px solid #FFFFFF;
+  height: 290px;
 }
