@@ -17,7 +17,9 @@
   font-weight: bold;
 }
 
-.container-nested{
+/* regole per ultima riga */
+
+.footer .container-nested{
   width: 98%;
   margin: 0 auto;
   text-align: center;
