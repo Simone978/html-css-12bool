@@ -1,0 +1,23 @@
+
+.debug .container {
+  background-color: red;
+  height: 300px;
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.container:after{
+  content:"";
+  display: table;
+  clear: both;
+}
