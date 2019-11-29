@@ -19,15 +19,24 @@
 
 /* regole per ultima riga */
 
-.footer .container-nested{
-  width: 98%;
+
+.container [class*="col-"] .container{
   margin: 0 auto;
   text-align: center;
-  padding: 2px;
+
+}
+
+.container.footer .container{
+  padding: 10px;
+}
+
+.container.footer .col-6 .relative-pos{
+  height: 100%;
 }
 
 .container.footer .col-6 .relative-pos{
   background: #F07F80;
   border: 1px solid #FFFFFF;
-  height: 290px;
+  padding: 10px;
+
 }
